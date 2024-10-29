@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenshop</title>
+</head>
+
+<body style="display:flex; justify-content: center; margin: 0; background-color: gray">
+    <div style="background-color: #FFFFFF; width:500px;">
+        <!-- Кнопка close -->
+        <div style="display: flex; justify-content:right; padding: 13px 13px 0 0;">
+            <button style="border: 0; background-color: transparent;">
+                <img src="./img/Frame1.svg" alt="Close register form">
+            </button>
+        </div>
+        <div style="margin-left: 20%; width: 60%">
+            <form action="">
+                <!-- Login/Register -->
+                <div style="display: flex; justify-content: center; margin-bottom:40px;">
+                    <p>
+                        <a href="#" style="text-decoration: none; color:#3D3D3D; font-weight: 500; font-size: 20px; line-height: 16px; margin-right:12px;">
+                            Login
+                        </a>
+                    </p>
+                    <p style="font-weight: 250; font-size: 18px; line-height: 16px; margin-right:10px;">|</p>
+                    <p>
+                        <a href="" style="text-decoration: none; font-weight: 500; font-size: 20px; line-height: 16px; color: #46A358;">
+                            Register
+                        </a>
+                    </p>
+                </div>
+                <p style="margin-bottom: 14px; font-weight: 250; font-size: 13px; line-height: 16px; color: #3D3D3D;">
+                    Enter your email and password to register.</p>
+                <!-- Поля вводу -->
+                <div style="display: block;">
+                    <!-- Ім'я користувача -->
+                    <input type="text" placeholder="Username" required
+                        style="margin-bottom: 16px; width:300px; height:40px; color: #A5A5A5; font-weight:400; font-size:14px; line-height:16px;"><br>
+                    <!-- Емейл -->
+                    <input type="email" placeholder="Email" required
+                        style="margin-bottom: 16px;width:300px; height:40px; color: #A5A5A5; font-weight:400; font-size:14px; line-height:16px;"><br>
+                    <!-- Пароль з кнопкою Show/Hide -->
+                    <div style="position: relative;">
+                        <button type="button" style="width: 20px; height: 20px; position:absolute; top: 15px; left: 270px; border: 0;">
+                            <img src="./img/Hide.svg" alt="Show or hide password"> 
+                        </button>
+                        <input type="password" placeholder="Password" required
+                        style="margin-bottom: 16px;width:300px; height:40px; color: #A5A5A5; font-weight:400; font-size:14px; line-height:16px; background-color: transparent;">
+                    </div>
+                    <!-- Повторити пароль -->
+                    <input type="password" placeholder="Confirm Password" required
+                        style="margin-bottom: 41px;width:300px; height:40px; color: #A5A5A5; font-weight:400; font-size:14px; line-height:16px;">
+                </div>
+                <!-- Кнопка реєстрації -->
+                <button type="submit"
+                    style="margin-bottom: 36px; width:300px; height:45px; background-color:#46A358; border-radius: 5px; border: none;">
+                    <span style="color: #FFFFFF; font-weight:700; font-size: 16px; line-height: 16px;">Register</span>
+                </button>
+                <!-- Or register with -->
+                <div style="display: flex; margin-bottom:27px;">
+                    <hr style="width: 97px; color: #EAEAEA; margin-right: 6px;">
+                    <span style="font-weight: 400; font-size: 13px; line-height: 16px; margin-right: 6px;">Or register
+                        with</span>
+                    <hr style="width: 97px; color: #EAEAEA;">
+                </div>
+                <!-- Продовжити через Google -->
+                <button type="button"
+                    style="margin-bottom: 15px; width:300px; background-color:transparent; height: 40px; border:1px solid #EAEAEA; border-radius: 5px;  display:flex; justify-content:center; align-items:center; gap: 9px;">
+                        <img src="./img/google1.svg" alt="Link to Google">
+                    <span style="font-weight: 500; font-size: 13px; line-height: 16px; color: #727272;">
+                        Continue with Google
+                    </span>
+                </button>
+                <br>
+                <!-- Продовжити через Facebook -->
+                <button type="button"
+                    style="width:300px; background-color:transparent; height: 40px; border:1px solid #EAEAEA; border-radius: 5px; display:flex; justify-content:center; align-items:center; gap: 4px; margin-bottom: 50px;">
+                    <img src="./img/facebook1.svg" alt="Link to Facebook">
+                    <span style="font-weight: 500; font-size: 13px; line-height: 16px; color: #727272;">
+                        Continue with Facebook
+                    </span>
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
